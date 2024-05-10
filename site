@@ -1,0 +1,77 @@
+index.html <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus objetivos do ano</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="conteudo-principal">
+    <h2 class="titulo-principal">Meus Objetivos do ano_</h2>
+    <div class="botoes">
+      <button class="botao-selecionado">Estudar cursos na Alura</button>
+      <button>Criar projetos em JavaScript</button>
+      <button>Criar um portfólio</button>
+      <button>Atualizar meu currículo</button>
+    </div>
+    <div class="temporizador">
+      <h3>Tempo para completar objetivo</h3>
+      <div class="tempo-restante">
+        <span class="dias">7 dias</span>
+        <span class="horas">13 horas</span>
+        <span class="minutos">18 minutos</span>
+        <span class="segundos">13 segundos</span>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.conteudo-principal {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.titulo-principal {
+  color: #0f0; /* verde */
+  border-bottom: 1px solid #0f0; /* linha verde */
+}
+
+.botoes {
+  margin-top: 30px;
+}
+
+button {
+  background-color: #3f3; /* roxo */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.botao-selecionado {
+  background-color: #6f6; /* roxo claro */
+}
+
+.temporizador {
+  margin-top: 50px;
+}
+
+.temporizador h3 {
+  color: #0f0; /* verde */
+}
+
+.tempo-restante {
+  margin-top: 10px;
+}
+
+span {
+  margin-right: 5px;
+}
